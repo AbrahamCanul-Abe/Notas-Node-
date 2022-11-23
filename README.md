@@ -59,21 +59,29 @@ const [, , h3] = heroes;
 console.log(h3);
 ```
 
-Funciones de flecha
+# Funciones de flecha
+
 Se utilizan más comunmente que las funciones tradicionales, pues ofrecen ventajas como poder optimizar código y hacerlo más legible, aquí algunos ejemplos
 
 sumar y sumar2 hacen lo mismo, al igual que saludar y saludar2
 
-/_ function sumar(a, b) {
-return a + b;
-} _/
+```javascript
+/* function sumar(a, b) {
+	return a + b;
+} */
+
 const sumar = (a, b) => {
-return a + b;
+	return a + b;
 };
+
 const sumar2 = (a, b) => a + b;
+
 function saludar() {
-return 'Hola mundos';
+	return 'Hola mundos';
 }
+
 const saludar2 = () => 'Hola mundo';
+
 console.log(sumar2(5, 10));
 console.log(saludar2());
+```
