@@ -63,7 +63,7 @@ console.log(h3);
 
 Se utilizan más comunmente que las funciones tradicionales, pues ofrecen ventajas como poder optimizar código y hacerlo más legible, aquí algunos ejemplos
 
-sumar y sumar2 hacen lo mismo, al igual que saludar y saludar2
+sumar y sumar2 hacen lo mismo, al igual que saludar y saludar2 solo se cambia por una funcion de flecha
 
 ```javascript
 /* function sumar(a, b) {
